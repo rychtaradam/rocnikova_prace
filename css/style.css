@@ -1,0 +1,563 @@
+/* Font */
+
+.font{
+    font-family: 'Inconsolata', monospace;
+}
+
+.pozice {
+    position: relative;
+    left: 60px;
+}
+
+/* Linie */
+
+.inline {
+    display: inline-block;
+}
+
+/* Hlavička */
+
+.jumbotron {
+    padding-top: 0;
+    background-color: rgb(220, 53, 69);
+    border-radius: 0px;
+    padding-bottom: 25px;
+}
+
+.jumb1{
+    margin-bottom: 10px;
+}
+
+.top1 {
+    top: 30px;
+}
+
+.top2 {
+    top: 20px;
+}
+
+.pismo2 {
+    font-size: 30px;
+}
+
+.img2 {
+    position: relative;
+    top: -20px;
+    width: 130px;
+}
+
+/* Navigační lišta */
+
+.navbar1{
+    padding: 0;
+}
+
+.dropdown{
+    text-align: right;
+    background-color: #ffc107;
+}
+
+.fa-bars{
+    position: relative;
+    right: 10px;
+    top: 5px;
+    font-size: 30px;
+}
+
+.dropdown-menu {
+    min-width: 22rem;
+    padding: 0.5rem 1.5em;
+    background-color: rgba(64, 64, 64, 0.80);
+}
+
+.right1 {
+    position: relative;
+    left: 50px;
+}
+
+.right2 {
+    position: relative;
+    left: 100px;
+}
+
+.right3 {
+    position: relative;
+}
+
+.btn:hover {
+    background-color: rgb(220, 53, 69);
+    border-color: rgb(220, 53, 69);
+    color: white;
+}
+
+/* Tabulka */
+
+.stripe1 {
+    background-color: rgb(220, 53, 69);
+}
+
+.stripe2 {
+    background-color: #ffc107;
+}
+
+table, th, td {
+    border: 1px solid black;
+    text-align: center;
+}
+
+th {
+    font-size: 25px;
+}
+
+td {
+    font-size: 20px;
+}
+
+/* Zápatí */
+
+.jumb {
+    background-color: rgba(64, 64, 64, 0.80);
+    position: relative;
+    top: 10px;
+    height: 100px;
+    margin-bottom: 0;
+}
+
+.fab{
+    font-size: 40px;
+    color: black;
+}
+
+footer div a :hover{
+    color: #ffc107;
+}
+
+.platba{
+    position: absolute;
+    top: 15px;
+    right: 250px;
+}
+
+.social{
+    position: absolute;
+    right: 100px;
+    top: 15px; 
+}
+
+.copyright{
+    position: absolute;
+    top: 40px;
+    left: 50px;
+}
+
+/* Kontakt */
+
+.card1 {
+    background-color: rgb(15.7, 33.8, 22.8);
+    margin: 1px;
+}
+
+.card-body1 {
+    height: 180px;
+    width: 300px;
+}
+
+.karta {
+    position: relative;
+    left: -15px;
+    width: 300px;
+}
+
+/* Menu - jídlo */
+
+.velikost {
+    width: 170px;
+    position: relative;
+    top: -15px;
+    left: -8px;
+}
+
+.velikost1 {
+    width: 130px;
+    position: relative;
+    top: -25px;
+    left: -8px;
+}
+
+.pos{
+    position: absolute;
+    left: 200px;
+    top: 60px;
+    width: 135px;
+}
+
+.pos1{
+    position: absolute;
+    left: 200px;
+    top: 100px;
+    width: 110px;
+}
+
+.pos2 {
+    position: relative;
+    top: -15px;
+    left: -10;
+    text-align: left;
+}
+
+.card2 {
+    width: 330px;
+    height: 190px;
+    margin: 2px;
+}
+
+/* Carousel */
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+
+@media only screen and (max-width: 425px){
+    .img2 {
+        position: relative;
+        top: -22.5px;
+        width: 100px;
+    }
+
+    .pismo1 {
+        font-size: 50px;
+    }
+    
+    .pismo2 {
+        font-size: 30px;
+    }
+
+    .pozice {
+        position: relative;
+        left: 30px;
+    }
+
+    .top1 {
+        top: 20px;
+    }
+    
+    .top2 {
+        top: 10px;
+    }
+
+    .jumbotron {
+        padding-bottom: 0;
+    }
+
+    .navbar {
+        width:100%;
+        display: none;
+    }
+
+    .dropdown{
+        height: 40px;
+    }
+
+    .dropdown-menu {
+        min-width: 100%;
+        padding: 0.5rem 1.5em;
+        background-color: rgba(64, 64, 64, 0.80);
+    }
+    
+    .right1 {
+        position: relative;
+        left: 55px;
+    }
+    
+    .right2 {
+        position: relative;
+        left: 135px;
+    }
+
+    .karta {
+        width: 390px;
+    }
+
+    .card2{
+        margin-left: 30px;
+    }
+
+    th {
+        font-size: 15px;
+    }
+    
+    td {
+        font-size: 10px;
+    }
+
+    .jumb{
+        margin-top: 30px; 
+    }
+
+    .jumb1{
+        margin-bottom: 35px;
+    }
+
+    footer div div h6 {
+        font-size: 13px;
+    }
+
+    .fab{
+        font-size: 25px;
+        color: black;
+    }
+    
+    .platba{
+        position: absolute;
+        top: 15px;
+        right: 110px;
+    }
+    
+    .social{
+        position: absolute;
+        right: 10px;
+        top: 15px; 
+    }
+    
+    .copyright{
+        position: absolute;
+        top: 40px;
+        left: 10px;
+    }
+}
+
+@media only screen and (max-width: 375px){
+    .img2 {
+        position: relative;
+        top: -12.5px;
+        width: 100px;
+    }
+
+    .pismo1 {
+        font-size: 40px;
+    }
+    
+    .pismo2 {
+        font-size: 20px;
+    }
+
+    .pozice {
+        position: relative;
+        left: 30px;
+    }
+
+    .top1 {
+        top: 20px;
+    }
+    
+    .top2 {
+        top: 10px;
+    }
+    
+    .jumbotron {
+        padding-bottom: 0;
+    }
+    
+    .navbar {
+        width:100%;
+        display: none;
+    }
+
+    .dropdown-menu {
+        min-width: 100%;
+        padding: 0.5rem 1.5em;
+        background-color: rgba(64, 64, 64, 0.80);
+    }
+    
+    .right1 {
+        position: relative;
+        left: 30px;
+    }
+    
+    .right2 {
+        position: relative;
+        left: 85px;
+    }
+
+    .karta {
+        width: 343px;
+    }
+
+    .card2{
+        margin-left: 10px;
+    }
+
+    .jumb{
+        margin-top: 30px; 
+    }
+
+    .jumb1{
+        margin-bottom: 35px;
+    }
+
+    .fab{
+        font-size: 25px;
+        color: black;
+    }
+    
+    .platba{
+        position: absolute;
+        top: 10px;
+        right: 250px;
+    }
+    
+    .social{
+        position: absolute;
+        right: 20px;
+        top: 10px; 
+    }
+    
+    .copyright{
+        position: absolute;
+        top: 70px;
+        left: 100px;
+    }
+}
+
+@media only screen and (max-width: 320px){
+    .img2 {
+        position: relative;
+        top: -17.5px;
+        width: 80px;
+    }
+
+    .pismo1 {
+        font-size: 40px;
+    }
+    
+    .pismo2 {
+        font-size: 20px;
+    }
+
+    .pozice {
+        position: relative;
+        left: 15px;
+    }
+
+    .top1 {
+        top: 15px;
+    }
+    
+    .top2 {
+        top: 5px;
+    }
+    
+    .jumbotron {
+        padding-bottom: 0;
+    }
+
+    .navbar {
+        width:100%;
+        display: none;
+    }
+
+    .dropdown-menu {
+        min-width: 100%;
+        padding: 0.5rem 1.5em;
+        background-color: rgba(64, 64, 64, 0.80);
+    }
+    
+    .right1 {
+        position: relative;
+        left: 5px;
+    }
+    
+    .right2 {
+        position: relative;
+        left: 40px;
+    }
+    
+    .right3 {
+        position: relative;
+        left: -10px;
+    }
+    
+    .karta {
+        width: 288px;
+    }
+
+    .velikost{
+        width: 150px;
+    }
+
+    .velikost1{
+        width: 120px;
+    }
+
+    .pos{
+        position: absolute;
+        left: 170px;
+        top: 50px;
+        width: 120px;
+    }
+
+    .pos1{
+        position: absolute;
+        left: 170px;
+        top: 90px;
+    }
+
+    .card2 {
+        width: 290px;
+        height: 170px;
+        margin: 2px;
+    }
+
+    .jumb{
+        margin-top: 30px; 
+    }
+
+    .jumb1{
+        margin-bottom: 35px;
+    }
+
+    .fab{
+        font-size: 25px;
+        color: black;
+    }
+    
+    .platba{
+        position: absolute;
+        top: 10px;
+        right: 200px;
+    }
+    
+    .social{
+        position: absolute;
+        right: 20px;
+        top: 10px; 
+    }
+    
+    .copyright{
+        position: absolute;
+        top: 70px;
+        left: 70px;
+    }
+}
+
+@media only screen and (min-width: 766px){
+    .karta {
+        width: 328px;
+    }
+
+    .dropdown{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 1023px){
+    .karta {
+        width: 350px;
+    }
+}
+
+@media only screen and (min-width: 1439px){
+    .karta {
+        width: 348px;
+    }
+}

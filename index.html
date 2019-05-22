@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="cs">
+
+<head>
+    <title>McDonald's | Neoficiální stránka</title>
+    <link rel="shortcut icon" href="img/icon/mc-icon.ico" type="image/x-icon" />
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+
+<body>
+
+    <div class="navbar1">
+        <div class="dropdown">
+            <i class="fas fa-bars"></i>
+        </div>
+        <nav class="navbar navbar-expand-sm bg-warning font">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link btn btn-warning active" href="#"><i class="fas fa-home"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link btn btn-warning menu" href="#">Menu</a>
+                    <div class="collapse dropdown-menu">
+                        <a class="text-white right3" href="html/hlavni.html">Denní menu</a>
+                        <a class="text-white right1" href="html/snidane.html">Snídaně</a>
+                        <a class="text-white right2" href="html/mccafe.html">McCafé</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link btn btn-warning" href="html/smeny.html">Směny</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link btn btn-warning" href="html/brigada.html">Brigáda</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link btn btn-warning" href="html/kontakt.html">Kontakt</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    <header class="jumbotron jumb1">
+
+        <a href="https://mcdonalds.cz"><img class="img2" src="img/icon/mc-logo.svg" alt="McDonald's logo"></a>
+        <div class="inline">
+            <h1 class="display-3 text-warning pozice top1 pismo1">McDonald's</h1>
+            <h3 class="display-4 text-warning pozice top2 pismo2">Česká Republika</h3>
+        </div>
+
+    </header>
+
+    <main>
+
+        <div id="carousel" class="carousel slide" data-ride="carousel">
+
+            <ul class="carousel-indicators">
+                <li data-target="#carousel" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel" data-slide-to="1"></li>
+                <li data-target="#carousel" data-slide-to="2"></li>
+                <li data-target="#carousel" data-slide-to="3"></li>
+            </ul>
+
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <a href="https://www.mcdonalds.cz/novinky/uprav-si-maestra-at-se-hodi-ke-kazdemu-tvemu-ja/"><img
+                            src="img/carousel/carousel1.jpg" alt="Maestro" width="1100" height="500"></a>
+                </div>
+                <div class="carousel-item">
+                    <a href="https://www.mcdonalds.cz/novinky/nastartuj-se-poradnou-davkou-ovoce-v-mccafe/"><img
+                            src="img/carousel/carousel2.jpg" alt="Smoothie" width="1100" height="500"></a>
+                </div>
+                <div class="carousel-item">
+                    <a href="https://www.mcdonalds.cz/novinky/yuzu/"><img src="img/carousel/carousel3.jpg"
+                            alt="McCafe nabídka" width="1100" height="500"></a>
+                </div>
+                <div class="carousel-item">
+                    <a href="html/snidane.html"><img src="img/carousel/carousel5.jpg"
+                            alt="#" width="1100" height="500"></a>
+                </div>
+            </div>
+
+            <a class="carousel-control-prev" href="#carousel" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#carousel" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+
+        </div>
+
+    </main>
+
+    <footer class="jumbotron jumb font">
+
+        <div class="container">
+
+            <div class="copyright">
+                <h6>&copy; Adam Rychtář, IT1, 2019</h6>
+            </div>            
+
+            <div class="platba">
+                <h6>Akceptujeme:</h6>
+                <a href="https://www.mastercard.cz/cs-cz.html"><i class="fab fa-cc-mastercard"></i></a>
+                <a href="https://www.visa.cz/"><i class="fab fa-cc-visa"></i></a>
+                <a href="https://www.apple.com/cz/apple-pay/"><i class="fab fa-cc-apple-pay"></i></a>
+            </div>
+
+            <div class="social">
+                <h6>Sociální sítě:</h6>
+                <a href="https://www.facebook.com/McDonalds.CZ"><i class="fab fa-facebook-square"></i></a>
+                <a href="https://www.instagram.com/mcdonalds.cz"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.youtube.com/user/mcdonaldsczech"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <script>
+        $(document).ready(function () {
+            $(".menu").click(function () {
+                $(".collapse").collapse('toggle');
+            });
+        });
+    </script>
+    <script>
+        $(function () {
+            $(".dropdown").click(function () {
+                $(".navbar1 nav").toggle('slow');
+            });
+        });
+    </script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
